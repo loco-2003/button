@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #cebff4;
+}
+
+#counter-container {
+  text-align: center;
+}
+
+#click-button, #reset-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+#click-button {
+  background-color: #602265;
+  color: #fff;
+}
+
+#reset-button {
+  background-color: #5a506b;
+  color: #fff;
+}
